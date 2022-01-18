@@ -1,41 +1,27 @@
-# Setup
-title: ZHANG SHENSEN
-tagline: Designer
-url: https://dubin33.github.io
-paginate: 1
-baseurl: ""
-permalink: pretty
+title: ZHANG SHENSEN # name of the site
+author: Zhang Shensen # name of site's author
+email: zhangshensen@gmail.com # email of site's author
+url: https://dubin33.github.io # root address of the site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  A (nearly) no-CSS, fast, minimalist Jekyll theme.
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
+permalink: /:slug.html
 
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
 
 sass:
-  sass_dir: _sass
   style: :compressed
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
-author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
-
-# Custom vars
-version: 3.0.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
