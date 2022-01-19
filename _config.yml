@@ -18,7 +18,7 @@ baseurl: "" # For github pages
 description: >- # You can edit footer in _includes/footer.md 
   This is an ultralight demo.
 
-google_analytics: # Enter your tracking ID. Not available on IPFS
+google_analytics: UA-30164068-1 # Enter your tracking ID. Not available on IPFS
 
 twitter_cards: off # Not available on IPFS. /assets/logo.png required
 twitter_username: 
