@@ -2,11 +2,13 @@ $base-font-size: 16px !default;
 $text-color: #111111;
 $border-color: lightgray;
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC">
+
 body {
     color: $text-color;
     margin: 0;
     word-break: break-word;
-    font-family: "Noto Serif CJK SC", "PingFang SC", "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans;
+    font-family: "Noto Serif SC";
 }
 
 ul {
